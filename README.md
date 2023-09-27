@@ -3,14 +3,13 @@
 
 This task covers 10 test cases for the 'Shopping Cart' page; They mainy cover adding, deleting and sorting the shopping cart list
 
-## Table of Contents
+## Table of Contents:
 
 - [Installation](#installation)
-- [Notes](#notes)
 - [Test cases covered](#tc)
-- [Notesn](#notes)
+- [Notes](#notes)
 
-## Installation
+## Installation:
 
 - Clone the project locally 
 - Run mvn clean install
@@ -34,7 +33,7 @@ allure serve allure-report**
 - Arranging the product list ascendingly
 - CHeck that the shopping cart is empty
 
-## Notes
+## Notes:
 - For the assignment, I only ran it on chrome so this is the only browser covered
 - I covered the SID as required but for a reason I dont know (never had it before) when this cookie is updated, the browser is opened cached, I tried to figure it out but for the current situation I commented it;
   You can just uncommented it and run but the behavior will be messed up because of the already aded products from the previous run
